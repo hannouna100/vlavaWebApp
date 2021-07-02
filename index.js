@@ -2,7 +2,7 @@
 //call an api we created and do other things than the template. 
 //now inside the index.html of the template, at the end, we link this js file to it so we can use this API
 
-fetch('http://localhost:1234/services')
+fetch('https://vlava-myapi1.herokuapp.com/services')
   .then(response => response.json())
   .then(json => {
     console.log(json)   //for debugging if we got an error, ispect -> console
